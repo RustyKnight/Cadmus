@@ -9,9 +9,8 @@
 /* Begin PBXBuildFile section */
 		707F332621C3811200AB83C0 /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		707F332D21C3813500AB83C0 /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
-		707F333821C3824A00AB83C0 /* Cadmus_MacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F333621C3824A00AB83C0 /* Cadmus_MacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		707F333C21C3827400AB83C0 /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
-		707F333D21C3827700AB83C0 /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; };
+		707F333D21C3827700AB83C0 /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,7 +95,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707F333821C3824A00AB83C0 /* Cadmus_MacOS.h in Headers */,
 				707F333D21C3827700AB83C0 /* Cadmus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
