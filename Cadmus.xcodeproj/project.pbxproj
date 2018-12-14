@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		707F332121C3811200AB83C0 /* Cadmus_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707F332121C3811200AB83C0 /* Cadmus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		707F332421C3811200AB83C0 /* Cadmus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cadmus.h; sourceTree = "<group>"; };
 		707F332521C3811200AB83C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707F332C21C3813500AB83C0 /* Cadmus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadmus.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		707F332221C3811200AB83C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				707F332121C3811200AB83C0 /* Cadmus_iOS.framework */,
+				707F332121C3811200AB83C0 /* Cadmus.framework */,
 				707F333421C3824A00AB83C0 /* Cadmus.framework */,
 			);
 			name = Products;
@@ -117,7 +117,7 @@
 			);
 			name = "Cadmus-iOS";
 			productName = Cadmus;
-			productReference = 707F332121C3811200AB83C0 /* Cadmus_iOS.framework */;
+			productReference = 707F332121C3811200AB83C0 /* Cadmus.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		707F333321C3824A00AB83C0 /* Cadmus-MacOS */ = {
@@ -352,7 +352,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.Cadmus.iOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Cadmus;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -380,7 +380,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.Cadmus.iOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Cadmus;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
