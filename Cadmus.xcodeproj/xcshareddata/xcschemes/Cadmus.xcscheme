@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "707F332021C3811200AB83C0"
-               BuildableName = "Cadmus_iOS.framework"
+               BuildableName = "Cadmus.framework"
                BlueprintName = "Cadmus-iOS"
                ReferencedContainer = "container:Cadmus.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "707F332021C3811200AB83C0"
-            BuildableName = "Cadmus_iOS.framework"
+            BuildableName = "Cadmus.framework"
             BlueprintName = "Cadmus-iOS"
             ReferencedContainer = "container:Cadmus.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "707F332021C3811200AB83C0"
-            BuildableName = "Cadmus_iOS.framework"
+            BuildableName = "Cadmus.framework"
             BlueprintName = "Cadmus-iOS"
             ReferencedContainer = "container:Cadmus.xcodeproj">
          </BuildableReference>

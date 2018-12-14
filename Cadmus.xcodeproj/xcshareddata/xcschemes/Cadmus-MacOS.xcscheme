@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "707F333321C3824A00AB83C0"
-               BuildableName = "Cadmus_MacOS.framework"
+               BuildableName = "Cadmus.framework"
                BlueprintName = "Cadmus-MacOS"
                ReferencedContainer = "container:Cadmus.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "707F333321C3824A00AB83C0"
-            BuildableName = "Cadmus_MacOS.framework"
+            BuildableName = "Cadmus.framework"
             BlueprintName = "Cadmus-MacOS"
             ReferencedContainer = "container:Cadmus.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "707F333321C3824A00AB83C0"
-            BuildableName = "Cadmus_MacOS.framework"
+            BuildableName = "Cadmus.framework"
             BlueprintName = "Cadmus-MacOS"
             ReferencedContainer = "container:Cadmus.xcodeproj">
          </BuildableReference>
