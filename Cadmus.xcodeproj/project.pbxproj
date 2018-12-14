@@ -20,7 +20,7 @@
 		707F332521C3811200AB83C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707F332C21C3813500AB83C0 /* Cadmus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadmus.swift; sourceTree = "<group>"; };
 		707F332E21C3819D00AB83C0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		707F333421C3824A00AB83C0 /* Cadmus_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707F333421C3824A00AB83C0 /* Cadmus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		707F333621C3824A00AB83C0 /* Cadmus_MacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cadmus_MacOS.h; sourceTree = "<group>"; };
 		707F333721C3824A00AB83C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				707F332121C3811200AB83C0 /* Cadmus_iOS.framework */,
-				707F333421C3824A00AB83C0 /* Cadmus_MacOS.framework */,
+				707F333421C3824A00AB83C0 /* Cadmus.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			);
 			name = "Cadmus-MacOS";
 			productName = "Cadmus-MacOS";
-			productReference = 707F333421C3824A00AB83C0 /* Cadmus_MacOS.framework */;
+			productReference = 707F333421C3824A00AB83C0 /* Cadmus.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -411,7 +411,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.Cadmus.macOs;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Cadmus;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -439,7 +439,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = org.kaizen.Cadmus.macOs;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Cadmus;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
