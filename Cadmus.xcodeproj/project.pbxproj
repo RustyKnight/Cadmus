@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7042920421D6E48700D11F4E /* Cadmus_WatchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7042920221D6E48700D11F4E /* Cadmus_WatchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7042921121D6E4BD00D11F4E /* Cadmus_TVOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7042920F21D6E4BD00D11F4E /* Cadmus_TVOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		707F332621C3811200AB83C0 /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		707F332D21C3813500AB83C0 /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
 		707F333C21C3827400AB83C0 /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
@@ -14,6 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7042920021D6E48700D11F4E /* Cadmus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7042920221D6E48700D11F4E /* Cadmus_WatchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cadmus_WatchOS.h; sourceTree = "<group>"; };
+		7042920321D6E48700D11F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7042920D21D6E4BD00D11F4E /* Cadmus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7042920F21D6E4BD00D11F4E /* Cadmus_TVOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cadmus_TVOS.h; sourceTree = "<group>"; };
+		7042921021D6E4BD00D11F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707F332121C3811200AB83C0 /* Cadmus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		707F332421C3811200AB83C0 /* Cadmus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cadmus.h; sourceTree = "<group>"; };
 		707F332521C3811200AB83C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -25,6 +33,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		704291FD21D6E48700D11F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7042920A21D6E4BD00D11F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		707F331E21C3811200AB83C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,12 +64,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7042920121D6E48700D11F4E /* Cadmus-WatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				7042920221D6E48700D11F4E /* Cadmus_WatchOS.h */,
+				7042920321D6E48700D11F4E /* Info.plist */,
+			);
+			path = "Cadmus-WatchOS";
+			sourceTree = "<group>";
+		};
+		7042920E21D6E4BD00D11F4E /* Cadmus-TVOS */ = {
+			isa = PBXGroup;
+			children = (
+				7042920F21D6E4BD00D11F4E /* Cadmus_TVOS.h */,
+				7042921021D6E4BD00D11F4E /* Info.plist */,
+			);
+			path = "Cadmus-TVOS";
+			sourceTree = "<group>";
+		};
 		707F331721C3811200AB83C0 = {
 			isa = PBXGroup;
 			children = (
 				707F332E21C3819D00AB83C0 /* README.md */,
 				707F332321C3811200AB83C0 /* Cadmus */,
 				707F333521C3824A00AB83C0 /* Cadmus-MacOS */,
+				7042920121D6E48700D11F4E /* Cadmus-WatchOS */,
+				7042920E21D6E4BD00D11F4E /* Cadmus-TVOS */,
 				707F332221C3811200AB83C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +99,8 @@
 			children = (
 				707F332121C3811200AB83C0 /* Cadmus.framework */,
 				707F333421C3824A00AB83C0 /* Cadmus.framework */,
+				7042920021D6E48700D11F4E /* Cadmus.framework */,
+				7042920D21D6E4BD00D11F4E /* Cadmus.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +127,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		704291FB21D6E48700D11F4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7042920421D6E48700D11F4E /* Cadmus_WatchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7042920821D6E4BD00D11F4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7042921121D6E4BD00D11F4E /* Cadmus_TVOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		707F331C21C3811200AB83C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,6 +162,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		704291FF21D6E48700D11F4E /* Cadmus-WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7042920721D6E48700D11F4E /* Build configuration list for PBXNativeTarget "Cadmus-WatchOS" */;
+			buildPhases = (
+				704291FB21D6E48700D11F4E /* Headers */,
+				704291FC21D6E48700D11F4E /* Sources */,
+				704291FD21D6E48700D11F4E /* Frameworks */,
+				704291FE21D6E48700D11F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cadmus-WatchOS";
+			productName = "Cadmus-WatchOS";
+			productReference = 7042920021D6E48700D11F4E /* Cadmus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7042920C21D6E4BD00D11F4E /* Cadmus-TVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7042921221D6E4BD00D11F4E /* Build configuration list for PBXNativeTarget "Cadmus-TVOS" */;
+			buildPhases = (
+				7042920821D6E4BD00D11F4E /* Headers */,
+				7042920921D6E4BD00D11F4E /* Sources */,
+				7042920A21D6E4BD00D11F4E /* Frameworks */,
+				7042920B21D6E4BD00D11F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cadmus-TVOS";
+			productName = "Cadmus-TVOS";
+			productReference = 7042920D21D6E4BD00D11F4E /* Cadmus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		707F332021C3811200AB83C0 /* Cadmus-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 707F332921C3811200AB83C0 /* Build configuration list for PBXNativeTarget "Cadmus-iOS" */;
@@ -147,6 +243,12 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Kaizen Enteripises";
 				TargetAttributes = {
+					704291FF21D6E48700D11F4E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7042920C21D6E4BD00D11F4E = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					707F332021C3811200AB83C0 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
@@ -170,11 +272,27 @@
 			targets = (
 				707F332021C3811200AB83C0 /* Cadmus-iOS */,
 				707F333321C3824A00AB83C0 /* Cadmus-MacOS */,
+				704291FF21D6E48700D11F4E /* Cadmus-WatchOS */,
+				7042920C21D6E4BD00D11F4E /* Cadmus-TVOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		704291FE21D6E48700D11F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7042920B21D6E4BD00D11F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		707F331F21C3811200AB83C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +310,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		704291FC21D6E48700D11F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7042920921D6E4BD00D11F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		707F331D21C3811200AB83C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +343,116 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		7042920521D6E48700D11F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Cadmus-WatchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kaizen.Cadmus-WatchOS";
+				PRODUCT_NAME = Cadmus;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		7042920621D6E48700D11F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Cadmus-WatchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kaizen.Cadmus-WatchOS";
+				PRODUCT_NAME = Cadmus;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		7042921321D6E4BD00D11F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Cadmus-TVOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kaizen.Cadmus-TVOS";
+				PRODUCT_NAME = Cadmus;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		7042921421D6E4BD00D11F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Cadmus-TVOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kaizen.Cadmus-TVOS";
+				PRODUCT_NAME = Cadmus;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 		707F332721C3811200AB83C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -447,6 +689,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7042920721D6E48700D11F4E /* Build configuration list for PBXNativeTarget "Cadmus-WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7042920521D6E48700D11F4E /* Debug */,
+				7042920621D6E48700D11F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7042921221D6E4BD00D11F4E /* Build configuration list for PBXNativeTarget "Cadmus-TVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7042921321D6E4BD00D11F4E /* Debug */,
+				7042921421D6E4BD00D11F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		707F331B21C3811200AB83C0 /* Build configuration list for PBXProject "Cadmus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
