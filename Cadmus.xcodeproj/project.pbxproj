@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B959F822658B68009879FB /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
+		18B959F922658B68009879FB /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
+		18B959FC22658B7B009879FB /* Cadmus_MacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F333621C3824A00AB83C0 /* Cadmus_MacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7042920421D6E48700D11F4E /* Cadmus_WatchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7042920221D6E48700D11F4E /* Cadmus_WatchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7042921121D6E4BD00D11F4E /* Cadmus_TVOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7042920F21D6E4BD00D11F4E /* Cadmus_TVOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		707F332621C3811200AB83C0 /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		707F332D21C3813500AB83C0 /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
 		707F333C21C3827400AB83C0 /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
-		707F333D21C3827700AB83C0 /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -155,7 +157,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707F333D21C3827700AB83C0 /* Cadmus.h in Headers */,
+				18B959FC22658B7B009879FB /* Cadmus_MacOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +242,16 @@
 		707F331821C3811200AB83C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Kaizen Enteripises";
 				TargetAttributes = {
 					704291FF21D6E48700D11F4E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					7042920C21D6E4BD00D11F4E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					707F332021C3811200AB83C0 = {
 						CreatedOnToolsVersion = 10.1;
@@ -255,6 +259,7 @@
 					};
 					707F333321C3824A00AB83C0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -264,6 +269,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 707F331721C3811200AB83C0;
 			productRefGroup = 707F332221C3811200AB83C0 /* Products */;
@@ -314,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B959F822658B68009879FB /* Cadmus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B959F922658B68009879FB /* Cadmus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +373,7 @@
 				PRODUCT_NAME = Cadmus;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
@@ -393,7 +401,7 @@
 				PRODUCT_NAME = Cadmus;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
@@ -420,7 +428,7 @@
 				PRODUCT_NAME = Cadmus;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
@@ -447,7 +455,7 @@
 				PRODUCT_NAME = Cadmus;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
@@ -635,7 +643,7 @@
 		707F333A21C3824A00AB83C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -656,14 +664,14 @@
 				PRODUCT_NAME = Cadmus;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		707F333B21C3824A00AB83C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -684,7 +692,7 @@
 				PRODUCT_NAME = Cadmus;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
