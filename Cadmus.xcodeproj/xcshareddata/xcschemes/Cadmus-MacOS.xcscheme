@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "707F333321C3824A00AB83C0"
                BuildableName = "Cadmus.framework"
-               BlueprintName = "Cadmus-MacOS"
+               BlueprintName = "macOS"
                ReferencedContainer = "container:Cadmus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -47,12 +45,10 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "707F333321C3824A00AB83C0"
             BuildableName = "Cadmus.framework"
-            BlueprintName = "Cadmus-MacOS"
+            BlueprintName = "macOS"
             ReferencedContainer = "container:Cadmus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -65,7 +61,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "707F333321C3824A00AB83C0"
             BuildableName = "Cadmus.framework"
-            BlueprintName = "Cadmus-MacOS"
+            BlueprintName = "macOS"
             ReferencedContainer = "container:Cadmus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
