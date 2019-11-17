@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187C427D237FE52F005E0DDF /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187C427E237FE530005E0DDF /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187C427F237FE530005E0DDF /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18B959F822658B68009879FB /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
 		18B959F922658B68009879FB /* Cadmus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707F332C21C3813500AB83C0 /* Cadmus.swift */; };
 		707F332621C3811200AB83C0 /* Cadmus.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F332421C3811200AB83C0 /* Cadmus.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183A01612380D6CF006B97BF /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		7042920021D6E48700D11F4E /* Cadmus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7042920D21D6E4BD00D11F4E /* Cadmus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		707F332121C3811200AB83C0 /* Cadmus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cadmus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,11 +61,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183A01632380D87D006B97BF /* Cadmus */ = {
+			isa = PBXGroup;
+			children = (
+				707F332C21C3813500AB83C0 /* Cadmus.swift */,
+				707F332421C3811200AB83C0 /* Cadmus.h */,
+				707F332521C3811200AB83C0 /* Info.plist */,
+			);
+			path = Cadmus;
+			sourceTree = "<group>";
+		};
 		707F331721C3811200AB83C0 = {
 			isa = PBXGroup;
 			children = (
+				183A01612380D6CF006B97BF /* Package.swift */,
 				707F332E21C3819D00AB83C0 /* README.md */,
-				707F332321C3811200AB83C0 /* Cadmus */,
+				707F332321C3811200AB83C0 /* Sources */,
 				707F332221C3811200AB83C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,14 +92,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		707F332321C3811200AB83C0 /* Cadmus */ = {
+		707F332321C3811200AB83C0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				707F332C21C3813500AB83C0 /* Cadmus.swift */,
-				707F332421C3811200AB83C0 /* Cadmus.h */,
-				707F332521C3811200AB83C0 /* Info.plist */,
+				183A01632380D87D006B97BF /* Cadmus */,
 			);
-			path = Cadmus;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187C427E237FE530005E0DDF /* Cadmus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +115,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187C427F237FE530005E0DDF /* Cadmus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +131,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187C427D237FE52F005E0DDF /* Cadmus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +336,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Cadmus/Info.plist;
+				INFOPLIST_FILE = Sources/Cadmus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -348,7 +364,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Cadmus/Info.plist;
+				INFOPLIST_FILE = Sources/Cadmus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,7 +391,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Cadmus/Info.plist;
+				INFOPLIST_FILE = Sources/Cadmus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -402,7 +418,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Cadmus/Info.plist;
+				INFOPLIST_FILE = Sources/Cadmus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -554,7 +570,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Cadmus/Info.plist;
+				INFOPLIST_FILE = Sources/Cadmus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -582,7 +598,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Cadmus/Info.plist;
+				INFOPLIST_FILE = Sources/Cadmus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,7 +626,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Cadmus/Info.plist;
+				INFOPLIST_FILE = Sources/Cadmus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -638,7 +654,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Cadmus/Info.plist;
+				INFOPLIST_FILE = Sources/Cadmus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
