@@ -21,6 +21,6 @@ let package = Package(
         //.package(url: "https://url/of/another/package/named/Utility", from: "1.0.0"),
     ],
     targets: [
-        .target(name: "Cadmus", dependencies: []),
+			.target(name: "Cadmus", dependencies: [], path: "Sources/Cadmus"),
     ]
 )
