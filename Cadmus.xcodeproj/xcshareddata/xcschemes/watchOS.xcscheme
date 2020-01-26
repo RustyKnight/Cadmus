@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "707F333321C3824A00AB83C0"
+               BlueprintIdentifier = "704291FF21D6E48700D11F4E"
                BuildableName = "Cadmus.framework"
-               BlueprintName = "Cadmus-MacOS"
+               BlueprintName = "watchOS"
                ReferencedContainer = "container:Cadmus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -45,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "707F333321C3824A00AB83C0"
+            BlueprintIdentifier = "704291FF21D6E48700D11F4E"
             BuildableName = "Cadmus.framework"
-            BlueprintName = "Cadmus-MacOS"
+            BlueprintName = "watchOS"
             ReferencedContainer = "container:Cadmus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -63,9 +59,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "707F333321C3824A00AB83C0"
+            BlueprintIdentifier = "704291FF21D6E48700D11F4E"
             BuildableName = "Cadmus.framework"
-            BlueprintName = "Cadmus-MacOS"
+            BlueprintName = "watchOS"
             ReferencedContainer = "container:Cadmus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
