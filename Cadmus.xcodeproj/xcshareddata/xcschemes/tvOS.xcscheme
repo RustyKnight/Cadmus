@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1300"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7042920C21D6E4BD00D11F4E"
+               BlueprintIdentifier = "182844022569D1B800FA1F71"
                BuildableName = "Cadmus.framework"
                BlueprintName = "tvOS"
                ReferencedContainer = "container:Cadmus.xcodeproj">
@@ -40,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7042920C21D6E4BD00D11F4E"
-            BuildableName = "Cadmus.framework"
-            BlueprintName = "tvOS"
-            ReferencedContainer = "container:Cadmus.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -59,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7042920C21D6E4BD00D11F4E"
+            BlueprintIdentifier = "182844022569D1B800FA1F71"
             BuildableName = "Cadmus.framework"
             BlueprintName = "tvOS"
             ReferencedContainer = "container:Cadmus.xcodeproj">
